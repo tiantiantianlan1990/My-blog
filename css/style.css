@@ -669,10 +669,23 @@
 			color: #fff;
 		}
 
-		#nav li:hover a
+		#nav li:hover>a
 		{
 			background-color: rgba(200,225,255,0.1);
 			color: #fff;
+		}
+		#nav li .current_list 
+		{
+			display: block;
+			padding: 0.4em 1em 0.4em 1em;
+			text-decoration: none;
+			border-radius: 0.4em;
+			outline: 0;
+			-moz-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+			-webkit-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+			-o-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+			-ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
+			transition: background-color .25s ease-in-out, color .25s ease-in-out;
 		}
 
 /*********************************************************************************/
